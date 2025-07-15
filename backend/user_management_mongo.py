@@ -7,7 +7,7 @@ from urllib.parse import quote_plus
 
 MONGODB_URI = os.environ.get(
     'MONGODB_URI',
-    'mongodb+srv://anishtamakhu98:mlRcNYAsphHWMt38@creditfraud.igftal4.mongodb.net/?retryWrites=true&w=majority&appName=creditfraud'
+    'mongodb+srv://anishtamakhu98:password@creditfraud.igftal4.mongodb.net/?retryWrites=true&w=majority&appName=creditfraud'
 )
 DB_NAME = os.environ.get('MONGO_DB_NAME', 'fraud_detection')
 
