@@ -1,0 +1,4 @@
+from pymongo import MongoClient
+
+client = MongoClient("mongodb+srv://anishtamakhu98:<Phantom98@>@creditfraud.igftal4.mongodb.net/?retryWrites=true&w=majority&appName=creditfraud")
+db = client["fraud_detection"]

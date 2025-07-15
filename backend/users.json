@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1752421826121",
+    "username": "admin",
+    "email": "admin@frauddetection.com",
+    "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+    "role": "admin",
+    "created_at": "2025-07-13T15:50:26.121115"
+  },
+  {
+    "id": "1752421826129",
+    "username": "user",
+    "email": "user@frauddetection.com",
+    "password": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
+    "role": "user",
+    "created_at": "2025-07-13T15:50:26.129187"
+  }
+]
