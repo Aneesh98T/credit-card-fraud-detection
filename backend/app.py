@@ -27,7 +27,7 @@ model_trainer = FraudDetectionModel()
 user_manager = MongoUserManagement()
 from pymongo import MongoClient
 
-client = MongoClient("mongodb+srv://anishtamakhu98:wpL1kgv1iMbnCJfj@creditfraud.igftal4.mongodb.net/?retryWrites=true&w=majority&appName=creditfraud")
+client = MongoClient("mongodb+srv://anishtamakhu98:password@creditfraud.igftal4.mongodb.net/?retryWrites=true&w=majority&appName=creditfraud")
 db = client["mydatabase"]
 
 app.config['JWT_SECRET_KEY'] = 'super-secret-key'  # Change in production
